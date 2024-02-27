@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pl3xmap-openpac",
+  "version": "${version}",
+  "name": "pl3xmap-openpac",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/kjurczyn/pl3xmap-openpac"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "kjurczyn.pl3xmap.openpac.main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
