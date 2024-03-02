@@ -12,7 +12,7 @@
   "environment": "server",
   "entrypoints": {
     "server": [
-      "kjurczyn.pl3xmap.openpac.main"
+      "kjurczyn.pl3xmap.openpac.Main"
     ]
   },
   "depends": {
